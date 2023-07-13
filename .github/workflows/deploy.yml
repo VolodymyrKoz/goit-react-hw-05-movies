@@ -17,7 +17,7 @@ jobs:
           npm run lint:js
           npm run build
         env:
-          REACT_APP_API_KEY: ${{ secrets.REACT_APP_API_KEY }}
+          REACT_APP_API_KEY: 6e02ccde8d619b9fccdc5df234330d7d
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
